@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Project outputs
+# Keep reward curve and evaluation log (embedded in README)
+# Ignore raw data, model weights, and training configs
+experiments/*.csv
+checkpoints/*.pt
+checkpoints/*.json
+
+# Day 2 inspection scripts (not needed in final repo)
+inspect_trajectory.py
+inspect_5_episodes.py
